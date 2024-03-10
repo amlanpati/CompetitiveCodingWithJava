@@ -70,5 +70,6 @@ class MaxFrequencyElements {
             int count = obj.maxFrequencyElements(nums);
             System.out.println("Array: " + java.util.Arrays.toString(nums) + ", Maximum Frequency Elements: " + count);
         }
+        scn.close();
     }
 }
