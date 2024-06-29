@@ -23,10 +23,10 @@ class Solution {
 public class BinarySearch {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        System.out.println("Number of elements in the sorted array: ");
+        System.out.println("Number of elements in the sorted (ascending) array: ");
         int n = scn.nextInt();
         int[] arr = new int[n];
-        System.out.println("Enter elements of the sorted array: ");
+        System.out.println("Enter elements of the sorted (ascending) array: ");
         for (int i = 0; i < n; i++) {
             arr[i] = scn.nextInt();
         }
