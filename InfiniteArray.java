@@ -41,18 +41,9 @@ class Solution {
 
 public class InfiniteArray {
    public static void main(String[] args) {
-    Scanner scn = new Scanner(System.in);
-    System.out.println("Number of elements in the sorted (ascending) array: ");
-    int n = scn.nextInt();
-    int[] arr = new int[n];
-    System.out.println("Enter elements of the sorted (ascending) array: ");
-    for (int i = 0; i < n; i++) {
-        arr[i] = scn.nextInt();
-    }
-    System.out.println("Enter target element: ");
-    int target = scn.nextInt();
+    int[] arr = {3, 5, 7, 9, 10, 90, 100, 130, 140, 160, 170};
+    int target = 10;
     Solution obj = new Solution();
     System.out.println("The target element is at index " + obj.infiniteArray(arr, target) + ".");
-    scn.close();
    }
 }
